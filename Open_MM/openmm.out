@@ -1,0 +1,28 @@
+ 
+ University of Bristol ACRC HPC Bluepebble Service
+ -------------------------------------------------
+ Job openmm, jobid 1881241.bp1, username of15641 - started execution at 11:46:26 Wed 12/05/21 on node bp1-gpu00014.data.bp.acrc.priv
+ 
+Host:    bp1-gpu00014.data.bp.acrc.priv
+Time:    Wed May 12 11:46:26 BST 2021
+Dir:     /var/tmp/pbs.1881241.bp1
+Job ID:  1881241.bp1
+NCPUS:   1
+Nodelist:
+  bp1-gpu00014.data.bp.acrc.priv
+Conda env:  openmm
+Python:     /home/of15641/.conda/envs/openmm/bin/python
+Job script: /home/of15641/AbsorptionSpectra/Open_MM/run_workflow.py
+Result dir: /home/of15641/AbsorptionSpectra/Open_MM/output
+
+[Running job script]
+
+Running MD with 1 threads
+Reading system coordinates from /home/of15641/AbsorptionSpectra/Open_MM/cla_in_ether.pdb
+
+[Job script finished]
+
+Copying job script results to /home/of15641/AbsorptionSpectra/Open_MM/output
+
+‘/var/tmp/pbs.1881241.bp1/output/2ns_run_EnergyAndTemp.csv’ -> ‘/home/of15641/AbsorptionSpectra/Open_MM/output/2ns_run_EnergyAndTemp.csv’
+‘/var/tmp/pbs.1881241.bp1/output/2ns_run_traj_structures.pdb’ -> ‘/home/of15641/AbsorptionSpectra/Open_MM/output/2ns_run_traj_structures.pdb’
