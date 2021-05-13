@@ -57,7 +57,7 @@ class single_result():
 def run_qcore(chrom : Chromophore):
 	qcore_path = os.environ["qcore_path"]
 
-	json_run = subprocess.run(f"{qcore_path} -f json -s \" {chrom.name} := bchla(structure({chrom.to_qcore_string()}))\"",
+	json_run = subprocess.run(f"{qcore_path} -n 1 -f json -s \" {chrom.name} := bchla(structure({chrom.to_qcore_string()}))\"",
 		shell=True,
 		stdout=subprocess.PIPE,
 		executable="/bin/bash",
@@ -67,8 +67,8 @@ def run_qcore(chrom : Chromophore):
 
 	return single_result(chrom.name, result[chrom.name]["excitation_energy"], result[chrom.name]["transition_dipole"])
 
-def grep_lines(match_str):
-	grep_run = subprocess.run(f"grep -n \"{match_str}\" neutral_result_traj_structures.pdb",
+def grep_lines(match_str, file_name):
+	grep_run = subprocess.run(f"grep -n \"{match_str}\" {file_name}",
 						 shell=True,
 						 stdout=subprocess.PIPE,
 						 executable="/bin/bash")
@@ -77,10 +77,11 @@ def grep_lines(match_str):
 
 
 if __name__ == '__main__':
-	frame_lines = list(open("neutral_result_traj_structures.pdb"))
+	file_name = "./Open_MM/output/2ns_run_traj_structures.pdb"
+	frame_lines = list(open(file_name))
 
-	start_lines = grep_lines("MODEL")
-	end_lines = grep_lines("TER     138      CLA A   1")
+	start_lines = grep_lines("MODEL", file_name)
+	end_lines = grep_lines("TER     138      CLA A   1", file_name)
 
 	assert(len(start_lines) == len(end_lines))
 

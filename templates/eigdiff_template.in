@@ -1,0 +1,10 @@
+NAME := excited_scf(
+dft(
+ao = 'Def2-SVP'
+xc = PBE0
+)
+
+structure(file = '../XYZ_FILE')
+
+method='eigenvalue_difference'
+)

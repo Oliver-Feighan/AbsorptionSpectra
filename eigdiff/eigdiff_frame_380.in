@@ -1,0 +1,10 @@
+frame_380 := excited_scf(
+dft(
+ao = 'Def2-SVP'
+xc = PBE0
+)
+
+structure(file = '../frames/frame_380.xyz')
+
+method='eigenvalue_difference'
+)
