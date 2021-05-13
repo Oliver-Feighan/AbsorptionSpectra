@@ -15,9 +15,65 @@
  Build type: Release
  Version:    1.2.0
 
- Start time: Wed May 12 15:09:19 2021
+ Start time: Thu May 13 12:33:23 2021
 
  Data directory: /home/of15641/.local/src/Qcore/release/share/entos/1.2.0/data
  Number of threads: 18
  Number of threads was determined by: command line argument
   - More threads can be used by running 'qcore -n 24'
+
+ --------------------------------------------------------------------------------
+                               command: excited_scf                              
+ --------------------------------------------------------------------------------
+
+ **************
+  Ground state 
+ **************
+ AO basis set:                           def2-svp
+ Number of AO basis functions:        1274
+
+ Formula:                                C55H72N4O5Mg
+ Nuclear charge:                       482.000000000
+ Total charge:                           0.000000000
+ Number of electrons:                  482.000000000
+
+ Number of alpha electrons:            241
+ Number of beta electrons:             241
+ Number of unpaired electrons:           0
+ Spin:                                   0
+ Multiplicity:                           singlet
+
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:        6226
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:       867206
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+
+ -------------------------------------
+  Running unrestricted open-shell SCF 
+ -------------------------------------
+ Max number of iterations:             128
+ Conv. threshold (gradient):             1.00e-05
+ Conv. threshold (energy):               1.00e-06
+ Interpolation scheme:                   cdiis
+ Initial guess:                          SAD
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0     -2944.969693210                    1.02e+01       56.33
+   1     -2927.944713912      1.70e+01      9.39e-01       37.74
+   2     -2927.221939338      7.23e-01      2.18e+00       34.88
+   3     -2928.900430360     -1.68e+00      7.80e-01       35.61
+   4     -2929.056925635     -1.56e-01      2.28e-01       35.73
+   5     -2929.062368826     -5.44e-03      1.88e-01       35.95
+   6     -2929.068888626     -6.52e-03      4.20e-02       34.70
+   7     -2929.069379384     -4.91e-04      1.19e-02       35.32
+   8     -2929.069422385     -4.30e-05      6.85e-03       35.09

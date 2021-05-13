@@ -1,10 +1,10 @@
-for i in BLYP bchla PBE0 CAMB3LYP PBE0 eigdiff dscf
-do 
+for i in BLYP bchla eigdiff dscf PBE0 CAMB3LYP; do 
 	cd ${i}
-	for j in *sub;
-	do 
-		echo ${j}
-		/opt/pbs/bin/qsub ${j}
+	for j in *sub; do 
+		if ! /usr/bin/grep -q "Total wall" ${j/sub/out} ; then
+			echo ${j}
+			/opt/pbs/bin/qsub ${j}
+		fi
 	done
 	cd ../
 done

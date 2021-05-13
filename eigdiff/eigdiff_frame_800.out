@@ -15,9 +15,105 @@
  Build type: Release
  Version:    1.2.0
 
- Start time: Wed May 12 15:09:15 2021
+ Start time: Thu May 13 11:13:03 2021
 
  Data directory: /home/of15641/.local/src/Qcore/release/share/entos/1.2.0/data
  Number of threads: 18
  Number of threads was determined by: command line argument
-  - More threads can be used by running 'qcore -n 32'
+  - More threads can be used by running 'qcore -n 24'
+
+ --------------------------------------------------------------------------------
+                               command: excited_scf                              
+ --------------------------------------------------------------------------------
+
+ **************
+  Ground state 
+ **************
+ AO basis set:                           def2-svp
+ Number of AO basis functions:        1274
+
+ Formula:                                C55H72N4O5Mg
+ Nuclear charge:                       482.000000000
+ Total charge:                           0.000000000
+ Number of electrons:                  482.000000000
+
+ Number of alpha electrons:            241
+ Number of beta electrons:             241
+ Number of unpaired electrons:           0
+ Spin:                                   0
+ Multiplicity:                           singlet
+
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:        6226
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:       867206
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+
+ -------------------------------------
+  Running restricted closed-shell SCF 
+ -------------------------------------
+ Max number of iterations:             128
+ Conv. threshold (gradient):             1.00e-05
+ Conv. threshold (energy):               1.00e-06
+ Interpolation scheme:                   adiis+cdiis
+ Initial guess:                          SAD
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0     -2945.461486056                    2.16e+01       29.24
+   1     -2928.018320582      1.74e+01      1.60e+00       19.57
+   2     -2927.458829838      5.59e-01      3.56e+00       19.84
+   3     -2928.967275151     -1.51e+00      9.91e-01       19.68
+   4     -2928.488620920      4.79e-01      2.50e+00       19.70
+   5     -2929.047602118     -5.59e-01      5.65e-01       19.70
+   6     -2929.075704894     -2.81e-02      2.93e-01       23.26
+   7     -2929.078712422     -3.01e-03      2.30e-01       23.87
+   8     -2929.083415267     -4.70e-03      8.03e-02       20.64
+   9     -2929.082759502      6.56e-04      1.46e-01       20.44
+  10     -2929.083835722     -1.08e-03      1.57e-03       20.75
+  11     -2929.083835944     -2.22e-07      1.01e-03       20.57
+  12     -2929.083836018     -7.44e-08      3.92e-04       19.89
+  13     -2929.083836028     -1.02e-08      1.99e-04       19.31
+  14     -2929.083836031     -2.40e-09      5.48e-05       19.87
+  15     -2929.083836031     -2.88e-10      5.73e-05       18.90
+  16     -2929.083836031     -1.45e-10      2.32e-05       19.82
+  17     -2929.083836031     -2.36e-11      4.76e-06       24.21
+
+ SCF converged in 17 iterations.
+
+ Dipole moment (in Debye):               2.985954       1.047112      -0.485537
+
+ Quadrupole moment (in Debye-Angstrom):
+                  1            2            3
+ 1      -351.357941     6.848724    13.802132
+ 2         6.848724  -397.163016    31.338276
+ 3        13.802132    31.338276  -370.677609
+
+ Spin-squared expectation <S^2>:         0.000
+ Total spin quantum number S:            0.000
+ Setting up Delta-SCF
+
+ ***********************
+  Transition properties 
+ ***********************
+ Excited state:                          singlet
+ Excitation energy:                      0.096955043 hartree
+ Excitation energy (in eV):              2.638281130 eV
+ Ground-Excited state overlap:          -0.000000000
+ No correction applied to the TDM.
+ Transition dipole:                      2.91952       2.33522      -0.63487
+ Saving results in set 'frame_800'
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Thu May 13 11:21:12 2021
+ Total wall-clock time:                488.877 seconds
+==================================================================================
