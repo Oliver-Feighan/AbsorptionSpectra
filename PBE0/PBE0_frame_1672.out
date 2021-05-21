@@ -1,0 +1,260 @@
+
+================================================================================
+          _____________ ________ _______________ ________     _________         
+         / ___________// ______ \\_____   _____// ______ \   / ________)        
+        / /_________  / /      \ \     | |     / /      \ \ | (_______          
+       |  __________|| |        | |    | |    | |        | | \________ \        
+        \ \_________ | |        | |    | |     \ \______/ /___________) |       
+         \__________||_|        |_|    |_|      \________//____________/        
+                                                                                
+====================================[ Qcore ]===================================
+
+ Git hash:   ff1e2093c8f23ef0577345b9a658a2eb6550b0ad
+ Git date:   Mon, 17 May 2021 12:37:08 +0100
+ Compiler:   GNU 9.1.0
+ Build type: Release
+ Version:    1.2.0
+
+ Start time: Tue May 18 15:33:39 2021
+
+ Data directory: /home/of15641/.local/src/Qcore/release/share/entos/1.2.0/data
+ Number of threads: 18
+ Number of threads was determined by: command line argument
+  - More threads can be used by running 'qcore -n 32'
+
+ --------------------------------------------------------------------------------
+                                   command: td                                   
+ --------------------------------------------------------------------------------
+ AO basis set:                           def2-svp
+ Number of AO basis functions:        1274
+
+ Formula:                                C55H72N4O5Mg
+ Nuclear charge:                       482.000000000
+ Total charge:                           0.000000000
+ Number of electrons:                  482.000000000
+
+ Number of alpha electrons:            241
+ Number of beta electrons:             241
+ Number of unpaired electrons:           0
+ Spin:                                   0
+ Multiplicity:                           singlet
+
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:        6226
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:       867206
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+
+ -------------------------------------
+  Running restricted closed-shell SCF 
+ -------------------------------------
+ Max number of iterations:             128
+ Conv. threshold (gradient):             1.00e-05
+ Conv. threshold (energy):               1.00e-06
+ Interpolation scheme:                   adiis+cdiis
+ Initial guess:                          SAD
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:          75
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:         6800
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:          18
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:         5890
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:         112
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:         7206
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:          77
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:         6800
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ Theory:                                 dft
+ Exchange-correlation functional:        pbe0
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-JKFIT
+ Number of DF basis functions:          77
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:         6944
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0     -2944.908088583                    2.06e+01       32.32
+   1     -2928.001797082      1.69e+01      1.67e+00       24.40
+   2     -2927.346299704      6.55e-01      3.65e+00       21.76
+   3     -2928.943738343     -1.60e+00      1.07e+00       21.62
+   4     -2928.481226944      4.63e-01      2.65e+00       24.12
+   5     -2929.029663219     -5.48e-01      5.83e-01       27.93
+   6     -2929.053254580     -2.36e-02      3.53e-01       21.23
+   7     -2929.057743117     -4.49e-03      2.48e-01       21.81
+   8     -2929.061413337     -3.67e-03      1.21e-01       21.46
+   9     -2929.060423773      9.90e-04      2.04e-01       21.35
+  10     -2929.062118679     -1.69e-03      6.99e-02       21.92
+  11     -2929.062191313     -7.26e-05      6.57e-02       25.23
+  12     -2929.062583014     -3.92e-04      6.06e-04       21.78
+  13     -2929.062583030     -1.61e-08      4.67e-04       22.16
+  14     -2929.062583043     -1.28e-08      1.11e-04       21.14
+  15     -2929.062583044     -8.74e-10      6.07e-05       26.64
+  16     -2929.062583044     -4.08e-10      2.56e-05       21.62
+  17     -2929.062583044     -6.82e-11      1.07e-05       21.07
+  18     -2929.062583044     -2.91e-11      7.16e-06       25.41
+
+ SCF converged in 18 iterations.
+
+ Dipole moment (in Debye):              -1.766706       5.270879       2.520880
+
+ Quadrupole moment (in Debye-Angstrom):
+                  1            2            3
+ 1      -368.268374    11.736904     9.042235
+ 2        11.736904  -432.517535    -8.033535
+ 3         9.042235    -8.033535  -404.019412
+
+ Spin-squared expectation <S^2>:         0.000
+ Total spin quantum number S:            0.000
+
+ --------------------------------------------------
+ iter  root      eigenvalue    residual        time
+ --------------------------------------------------
+    1    1        0.090992    5.63e-02
+         2        0.095136    5.55e-02
+         3        0.128467    4.80e-02      684.95
+    2    1        0.080519    1.42e-02
+         2        0.086338    1.04e-02
+         3        0.120477    1.03e-02      190.09
+    3    1        0.079290    6.77e-03
+         2        0.085738    4.61e-03
+         3        0.119872    7.70e-03      186.44
+    4    1        0.079042    2.19e-03
+         2        0.085602    1.73e-03
+         3        0.119428    8.04e-03      182.49
+    5    1        0.079022    7.85e-04
+         2        0.085592    6.40e-04
+         3        0.118299    1.28e-02      195.26
+    6    1        0.079019    2.65e-04
+         2        0.085590    2.09e-04
+         3        0.116889    9.59e-03      194.76
+    7    1        0.079019    1.20e-04
+         2        0.085590    8.03e-05
+         3        0.116506    5.04e-03      196.48
+    8    1        0.079019    3.86e-05
+         2        0.085590    3.55e-05
+         3        0.116303    4.11e-03      182.22
+    9    1        0.079019    1.40e-05
+         2        0.085590    1.18e-05
+         3        0.116225    2.41e-03      222.27
+   10    1        0.079019    4.66e-06
+         2        0.085590    4.73e-06
+         3        0.116201    1.03e-03      194.68
+   11    1        0.079019    1.79e-06
+         2        0.085590    1.84e-06
+         3        0.116197    5.67e-04      193.73
+   12    1        0.079019    6.21e-07
+         2        0.085590    7.40e-07
+         3        0.116195    2.62e-04      191.38
+   13    1        0.079019    6.15e-07
+         2        0.085590    7.12e-07
+         3        0.116195    1.18e-04       92.61
+   14    1        0.079019    6.14e-07
+         2        0.085590    7.07e-07
+         3        0.116195    5.15e-05       87.42
+   15    1        0.079019    6.15e-07
+         2        0.085590    7.05e-07
+         3        0.116195    2.54e-05       94.17
+   16    1        0.079019    5.70e-07
+         2        0.085590    7.01e-07
+         3        0.116195    9.96e-06       80.84
+   17    1        0.079019    5.69e-07
+         2        0.085590    7.01e-07
+         3        0.116195    4.67e-06      107.33
+   18    1        0.079019    5.66e-07
+         2        0.085590    6.96e-07
+         3        0.116195    2.10e-06       93.09
+   19    1        0.079019    5.65e-07
+         2        0.085590    6.96e-07
+         3        0.116195    7.61e-07       77.60
+
+ Convergence achieved
+
+ -----------------------------
+  Summary of response results 
+ -----------------------------
+
+ Excited State   1:  0.079019 hartree (    2.1502 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      240 -> 243        -0.2911
+                      241 -> 242        -0.6422
+
+ Excited State   2:  0.085590 hartree (    2.3290 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      240 -> 242        -0.5618
+                      241 -> 243         0.4209
+
+ Excited State   3:  0.116195 hartree (    3.1618 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      240 -> 242        -0.3704
+                      240 -> 243        -0.2086
+                      240 -> 244        -0.1531
+                      241 -> 243        -0.5154
+ Transition Dipole Moments (a.u.)
+                         X                   Y                   Z
+ 1            -0.108621253         1.640903465         0.802252583
+ 2            -0.312450140         0.056880791         0.036394619
+ 3            -2.794584989        -1.105214577        -0.047536708
+
+ Oscillator Strengths (a.u.):
+                  1
+ 1         0.176369
+ 2         0.005831
+ 3         0.699762
+ Saving results in set 'frame_1672'
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Tue May 18 16:40:34 2021
+ Total wall-clock time:               4015.180 seconds
+==================================================================================

@@ -1,0 +1,13 @@
+frame_1452 := td(
+n_states = 3
+dft(
+ao = 'cc-pVDZ'
+xc = 'camb3lyp'
+df_custom = {'Mg': 'def2-universal-jkfit'}
+eri_method = 'direct_4idx'
+)
+
+structure(file = '../frames/frame_1452.xyz')
+
+)
+

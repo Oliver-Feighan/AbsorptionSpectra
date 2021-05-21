@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l walltime=5:00:00
+#PBS -l select=1:ncpus=24:mem=185gb
+#PBS -N eigdiff_frame_484
+#PBS -j oe
+
+cd ~/AbsorptionSpectra/eigdiff
+
+export OMP_NUM_THREADS=1
+export MKL_THREADING_LAYER=TBB
+
+~/.local/src/Qcore/release/qcore -n 18 eigdiff_frame_484.in > eigdiff_frame_484.out

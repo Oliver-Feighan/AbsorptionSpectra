@@ -1,0 +1,13 @@
+frame_424 := excited_scf(
+dft(
+ao = 'Def2-SVP'
+xc = PBE0
+ansatz = u
+diis = cdiis
+)
+
+structure(file = '../frames/frame_424.xyz')
+
+start_from_average = true
+symmetric_orthogonalization_correction = true
+)
